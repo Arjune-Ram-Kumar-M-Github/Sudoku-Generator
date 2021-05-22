@@ -104,7 +104,7 @@ class SudokuGenerator:
 if __name__ == '__main__':
     s = SudokuGenerator()
     s.print_board(s.generateSudoku())
-    print("\n Enter to see Answer")
+    print("\n Press any key to see Answer")
     input()
     s.print_board(s.solvedGrid)
     
